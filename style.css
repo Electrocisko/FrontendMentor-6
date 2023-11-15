@@ -82,6 +82,8 @@ h1 span {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-card{
@@ -178,12 +180,6 @@ h1 span {
     color: rgb(223, 168, 49);
 }
 
-.rated {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .rated span {
     color: var(--color-very-dark-magenta);
     font-weight: 600;
@@ -192,7 +188,7 @@ h1 span {
 
 .stars-container {
     margin: 15px;
-    padding: 20px;
+    padding: 15px;
     background-color: var(--color-light-magenta);
     border-radius: 10px;
     width: 70%;
