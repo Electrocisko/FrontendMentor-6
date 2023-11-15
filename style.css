@@ -1,6 +1,43 @@
-* {
-    margin: 0%;
-    padding: 0%;
+/* ---------variables ------------ */
+:root {
+    --color-very-dark-magenta: hsl(300, 43%, 22%);
+    --color-soft-pink: hsl(333, 80%, 67%);
+    --color-dark-magenta: hsl(303, 10%, 53%);
+    --color-light-magenta: hsl(300, 24%, 96%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+/* ------Reset Styles ------- */
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
 }
 
 body{
@@ -9,8 +46,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
 
 .main-container{
     height: 600px;
@@ -35,7 +70,6 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-
 
 .left-card{
     /* border: solid green; */
