@@ -218,7 +218,7 @@ h1 span {
     }
 
     h1 {
-        margin: 0%;
+     
         padding: 10px;
         font-weight: 900;
         font-size: 2rem;
@@ -233,7 +233,6 @@ h1 span {
     .title p {
         font-weight: 700;
         padding: 10px;
-        margin: 0%;
     }
 
     .stars-container{
@@ -247,14 +246,5 @@ h1 span {
         align-items: center;
         justify-content: center;
     }
-
-    .left-card, .center-card,  .right-card{
-        display: flex;   
-        align-items: center; 
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-    
-
  
 }
