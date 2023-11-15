@@ -25,27 +25,35 @@ html {
     box-sizing: inherit;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+* {
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
 body{
+    background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    color: var(--color-very-dark-magenta);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+h1 span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title p {
+    color: var(--color-dark-magenta);
+}
+
 
 .main-container{
     height: 600px;
